@@ -14,8 +14,23 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 
-Add code here
+~~~
+import numpy as np
+
+x = np.array([10, 25, 30, 5, 18])
+y = np.array([8, 25, 20, 10, 15])
+
+condition = x >= y 
+
+indices = np.where(condition)[0]
+
+print("Array x:", x)
+print("Array y:", y)
+print("Indices where x >= y:", indices)
+~~~
 
 ## Output
+<img width="892" height="395" alt="image" src="https://github.com/user-attachments/assets/c1a51ec6-a320-44da-b94d-ecaf576ee784" />
 
 ## Result
+Python program using NumPy that finds the indices where elements in array x are greater than or equal to their corresponding elements in array y is executed successfully.
